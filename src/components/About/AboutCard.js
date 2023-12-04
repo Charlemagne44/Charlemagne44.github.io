@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { AiFillCamera, AiFillGithub } from "react-icons/ai";
 import { IoTelescope } from "react-icons/io5";
-import { GiHandSaw, GiSawClaw } from "react-icons/gi";
+import { GiHandSaw } from "react-icons/gi";
 import { MdRowing } from "react-icons/md";
 import { FaRunning } from "react-icons/fa";
 import { GiWeightLiftingUp } from "react-icons/gi";
