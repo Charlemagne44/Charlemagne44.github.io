@@ -62,7 +62,7 @@ function Gallery() {
           >
             <h3>My Camera</h3>
             <a href="https://www.amazon.com/Canon-Rebel-Digital-EF-S-18-55mm/dp/B00T3ER7QO">
-              <Tilt>
+              <Tilt tiltReverse="true">
                 <img
                   src={canon}
                   alt="Canon EOS Rebel T6i"

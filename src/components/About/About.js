@@ -37,7 +37,7 @@ function About() {
             }}
             className="about-img circular-image"
           >
-            <Tilt>
+            <Tilt tiltReverse="true">
               <img
                 src={rowingImg}
                 alt="about"

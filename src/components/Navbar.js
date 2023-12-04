@@ -4,6 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import { AiOutlineHome, AiOutlineUser, AiOutlinePicture } from "react-icons/ai";
+import { CiViewList } from "react-icons/ci";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -63,6 +64,15 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlinePicture style={{ marginBottom: "2px" }} /> Gallery
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/projects"
+                onClick={() => updateExpanded(false)}
+              >
+                <CiViewList style={{ marginBottom: "2px" }} /> Projects
               </Nav.Link>
             </Nav.Item>
           </Nav>
