@@ -1,3 +1,5 @@
+@import url(~react-image-gallery/styles/css/image-gallery.css);
+
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -447,6 +449,14 @@ button:focus {
 .about-section {
   position: relative !important;
   padding-top: 150px !important;
+  padding-bottom: 30px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.gallery-section {
+  position: relative !important;
+  padding-top: 100px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
