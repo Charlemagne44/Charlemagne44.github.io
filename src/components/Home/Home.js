@@ -7,6 +7,8 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaStrava } from "react-icons/fa";
+import { SiGarmin } from "react-icons/si";
 
 function Home() {
   return (
@@ -111,6 +113,26 @@ function Home() {
                     className="icon-colour  home-social-icons"
                   >
                     <FaLinkedinIn />
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="https://www.strava.com/athletes/10708949"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                  >
+                    <FaStrava />
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="https://connect.garmin.com/modern/profile/Collinhay44"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                  >
+                    <SiGarmin />
                   </a>
                 </li>
               </ul>

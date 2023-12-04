@@ -350,11 +350,11 @@ button:focus {
 .home-social-icons {
   position: relative !important;
   display: inline-block !important;
-  width: 40px !important;
-  height: 40px !important;
+  width: 60px !important;
+  height: 60px !important;
   text-align: center !important;
-  font-size: 1.2em !important;
-  line-height: 2em !important;
+  font-size: 1.9em !important;
+  line-height: 1.7em !important;
   background: rgba(255, 255, 255, 0.972) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;

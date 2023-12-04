@@ -3,10 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-import {
-  AiOutlineHome,
-  AiOutlineUser,
-} from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser, AiOutlinePicture } from "react-icons/ai";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -30,9 +27,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          
-        </Navbar.Brand>
+        <Navbar.Brand href="/" className="d-flex"></Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -61,6 +56,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/Gallery"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlinePicture style={{ marginBottom: "2px" }} /> Gallery
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
