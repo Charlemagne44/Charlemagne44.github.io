@@ -59,7 +59,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/Gallery"
+                to="/gallery"
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlinePicture style={{ marginBottom: "2px" }} /> Gallery
