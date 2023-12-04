@@ -1,12 +1,32 @@
-import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
-import { CardMedia, makeStyles } from "@mui/material";
+import { CardMedia } from "@mui/material";
+import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 export default function Post(props) {
+  const handleShareClick = async () => {
+    try {
+      if (navigator.share) {
+        await navigator.share({
+          title: "Your sharing title",
+          text: "Your sharing text",
+          url: "https://example.com", // Replace with your actual URL
+        });
+      } else {
+        throw new Error("Web Share API is not supported in this browser.");
+      }
+    } catch (error) {
+      console.error("Error sharing:", error.message);
+    }
+  };
+
+  const handleLearnMoreClick = () => {
+    window.open(props.url, "_blank");
+  };
+
   return (
     <Card
       sx={{
@@ -25,10 +45,14 @@ export default function Post(props) {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small" sx={{ color: "blue" }}>
+        <Button size="small" sx={{ color: "blue" }} onClick={handleShareClick}>
           Share
         </Button>
-        <Button size="small" sx={{ color: "blue" }}>
+        <Button
+          size="small"
+          sx={{ color: "blue" }}
+          onClick={handleLearnMoreClick}
+        >
           Learn More
         </Button>
       </CardActions>
