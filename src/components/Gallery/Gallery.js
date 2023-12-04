@@ -21,7 +21,7 @@ function Gallery() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              About <strong className="purple">me</strong>{" "}
+              My <strong className="purple">Galleries</strong>{" "}
             </h1>
             <Aboutcard />
           </Col>
