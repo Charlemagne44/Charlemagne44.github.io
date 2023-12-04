@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/rowing_pic.png";
+import rowingImg from "../../Assets/rowing_pic.png";
 import Tilt from "react-parallax-tilt";
 
 function About() {
@@ -39,7 +39,7 @@ function About() {
           >
             <Tilt>
               <img
-                src={laptopImg}
+                src={rowingImg}
                 alt="about"
                 className="img-fluid rounded-circle"
               />
