@@ -35,7 +35,13 @@ function Home() {
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Typewriter
                   options={{
-                    strings: ["Rower", "Developer", "Chipotle Enthusiast"],
+                    strings: [
+                      "Rower",
+                      "Developer",
+                      "Chipotle Enthusiast",
+                      "Nerd",
+                      "KGLW Fanatic",
+                    ],
                     autoStart: true,
                     loop: true,
                     deleteSpeed: 50,
@@ -60,22 +66,23 @@ function Home() {
           <Row>
             <Col md={8} className="home-about-description">
               <h1 style={{ fontSize: "2.6em" }}>
-                LET ME <span className="purple"> INTRODUCE </span> MYSELF
+                Let me <span className="purple"> introduce </span> myself
               </h1>
               <p className="home-about-body">
-                I am fluent in classics like
+                I have varying degrees of experience in languages like
                 <i>
-                  <b className="purple"> C++ and Python. </b>
+                  <b className="purple"> C, Go, and Python. </b>
                 </i>
                 <br />
                 <br />
-                I debug more than I code.
+                Experience with large scale build tools.
                 <br />
                 <br />
-                My pronouns are{" "}
-                <i>
-                  <b>Jack of All Trades / Master of none</b>
-                </i>
+                Jack of a few trades, upper intermediate in{" "}
+                <b>
+                  <i>at least</i>
+                </b>{" "}
+                one?
               </p>
             </Col>
             <Col md={4} className="myAvtar">
@@ -86,14 +93,13 @@ function Home() {
           </Row>
           <Row>
             <Col md={12} className="home-about-social">
-              <h1>FIND ME ON</h1>
               <p>
-                Feel free to <span className="purple">connect </span>with me
+                Feel free to <span className="purple">connect </span>with me on
               </p>
               <ul className="home-about-social-links">
                 <li className="social-icons">
                   <a
-                    href="https://github.com/sukrutrahane"
+                    href="https://github.com/Charlemagne44"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
@@ -103,32 +109,12 @@ function Home() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://twitter.com/sukrutrahane"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour  home-social-icons"
-                  >
-                    <AiOutlineTwitter />
-                  </a>
-                </li>
-                <li className="social-icons">
-                  <a
-                    href="https://www.linkedin.com/in/sukrutrahane/"
+                    href="https://www.linkedin.com/in/collin-hay-a3914a1a0/"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
                   >
                     <FaLinkedinIn />
-                  </a>
-                </li>
-                <li className="social-icons">
-                  <a
-                    href="https://www.instagram.com/sukkkrut"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour home-social-icons"
-                  >
-                    <AiFillInstagram />
                   </a>
                 </li>
               </ul>
