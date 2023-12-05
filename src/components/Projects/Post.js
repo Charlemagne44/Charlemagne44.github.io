@@ -30,7 +30,10 @@ export default function Post(props) {
   return (
     <Card
       sx={{
-        maxWidth: 345,
+        maxWidth: 350,
+        minWidth: 350,
+        maxHeight: 550,
+        minHeight: 550,
         backgroundColor: "rgba(226, 224, 227, 1)",
         color: "white",
       }}

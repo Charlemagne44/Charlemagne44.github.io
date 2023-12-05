@@ -9,8 +9,8 @@ function Projects() {
       <Container fluid className="blog-section" id="blog">
         <Particle />
         <Container>
-          <Row style={{ justifyContent: "center", padding: "20px" }}>
-            <Col style={{ justifyContent: "center" }}>
+          <Row style={{ justifyContent: "center", padding: "20px"}}>
+            <Col style={{ justifyContent: "center", padding: "20px"}}>
               <Post
                 date="12/4/2023"
                 title="cTree"
@@ -20,7 +20,7 @@ function Projects() {
                 url="https://github.com/Charlemagne44/cTree/tree/main"
               ></Post>
             </Col>
-            <Col style={{ justifyContent: "center" }}>
+            <Col style={{ justifyContent: "center", padding: "20px"}}>
               <Post
                 date="08/20/2023"
                 title="Auto Rotating Solar Panel"
@@ -30,7 +30,7 @@ function Projects() {
                 url="https://github.com/Charlemagne44/ARSP_Prototype"
               ></Post>
             </Col>
-            <Col style={{ justifyContent: "center" }}>
+            <Col style={{ justifyContent: "center", padding: "20px"}}>
               <Post
                 date="06/16/2023"
                 title="Golang Rotating Torus"
@@ -41,8 +41,8 @@ function Projects() {
               ></Post>
             </Col>
           </Row>
-          <Row style={{ justifyContent: "center", padding: "20" }}>
-            <Col style={{ justifyContent: "center" }}>
+          <Row style={{ justifyContent: "center", padding: "20px" }}>
+            <Col style={{ justifyContent: "center", padding: "20px"}}>
               <Post
                 date="04/04/2023"
                 title="Word Crack"
@@ -52,7 +52,7 @@ function Projects() {
                 url="https://github.com/Charlemagne44/WordCrack"
               ></Post>
             </Col>
-            <Col style={{ justifyContent: "center" }}>
+            <Col style={{ justifyContent: "center", padding: "20px"}}>
               <Post
                 date="12/23/2022"
                 title="Golang Game of Life"
@@ -62,7 +62,7 @@ function Projects() {
                 url="https://github.com/Charlemagne44/GolangGameOfLife"
               ></Post>
             </Col>
-            <Col style={{ justifyContent: "center" }}>
+            <Col style={{ justifyContent: "center", padding: "20px" }}>
               <Post
                 date="12/21/2022"
                 title="Ascii Art Generator"
