@@ -35,7 +35,7 @@ function Projects() {
                 date="06/16/2023"
                 title="Golang Rotating Torus"
                 desc="A live rotating ascii torus written entirely in Go"
-                img="https://github.com/Charlemagne44/golang_torus/raw/master/torus_anim.gif"
+                img="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzQ1d3d6cHBkbmhweTNkMTI5ZjY4aXU4ZnJieDQ2NnhpcGp5YnNsNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ycobgCQ3yMn4eJ949Q/giphy.gif"
                 alt="Golang_Torus"
                 url="https://github.com/Charlemagne44/golang_torus"
               ></Post>
