@@ -9,8 +9,8 @@ function Projects() {
       <Container fluid className="blog-section" id="blog">
         <Particle />
         <Container>
-          <Row style={{ justifyContent: "center", padding: "20px"}}>
-            <Col style={{ justifyContent: "center", padding: "20px"}}>
+          <Row style={{ justifyContent: "center", padding: "10px"}}>
+          <Col className="d-flex justify-content-center" style={{ padding: "10px" }}>
               <Post
                 date="12/4/2023"
                 title="cTree"
@@ -20,17 +20,17 @@ function Projects() {
                 url="https://github.com/Charlemagne44/cTree/tree/main"
               ></Post>
             </Col>
-            <Col style={{ justifyContent: "center", padding: "20px"}}>
+            <Col className="d-flex justify-content-center" style={{ padding: "10px" }}>
               <Post
                 date="08/20/2023"
-                title="Auto Rotating Solar Panel"
-                desc="Basic diagrams and classes for an auto rotating dynamic solar panel created for Arduino"
+                title="ARSP"
+                desc="Basic diagrams and classes for an auto rotating solar panel with Arduino"
                 img="https://github.com/Charlemagne44/ARSP_Prototype/raw/main/diagrams/class_diagram.png"
                 alt="ARSP_Prototype"
                 url="https://github.com/Charlemagne44/ARSP_Prototype"
               ></Post>
             </Col>
-            <Col style={{ justifyContent: "center", padding: "20px"}}>
+            <Col className="d-flex justify-content-center" style={{ padding: "10px" }}>
               <Post
                 date="06/16/2023"
                 title="Golang Rotating Torus"
@@ -40,9 +40,7 @@ function Projects() {
                 url="https://github.com/Charlemagne44/golang_torus"
               ></Post>
             </Col>
-          </Row>
-          <Row style={{ justifyContent: "center", padding: "20px" }}>
-            <Col style={{ justifyContent: "center", padding: "20px"}}>
+            <Col className="d-flex justify-content-center" style={{ padding: "10px" }}>
               <Post
                 date="04/04/2023"
                 title="Word Crack"
@@ -52,7 +50,9 @@ function Projects() {
                 url="https://github.com/Charlemagne44/WordCrack"
               ></Post>
             </Col>
-            <Col style={{ justifyContent: "center", padding: "20px"}}>
+          </Row>
+          <Row style={{ justifyContent: "center", padding: "10px" }}>
+            <Col className="d-flex justify-content-center" style={{ padding: "10px"}}>
               <Post
                 date="12/23/2022"
                 title="Golang Game of Life"
@@ -62,7 +62,7 @@ function Projects() {
                 url="https://github.com/Charlemagne44/GolangGameOfLife"
               ></Post>
             </Col>
-            <Col style={{ justifyContent: "center", padding: "20px" }}>
+            <Col className="d-flex justify-content-center" style={{ padding: "10px" }}>
               <Post
                 date="12/21/2022"
                 title="Ascii Art Generator"
@@ -70,6 +70,16 @@ function Projects() {
                 img="https://github.com/Charlemagne44/GolangAsciiArt/raw/main/samples/knight_result.png"
                 alt="GolangAsciiArt"
                 url="https://github.com/Charlemagne44/GolangAsciiArt"
+              ></Post>
+            </Col>
+            <Col className="d-flex justify-content-center" style={{ padding: "10px" }}>
+              <Post
+                date="10/12/2020"
+                title="Bannerlord Native Mod"
+                desc="A simple mod to mitigate grinding and speed up progression"
+                img="https://image.api.playstation.com/vulcan/ap/rnd/202212/1905/euRPguOnriw6H2HvYQPtIYZ4.jpg"
+                alt="VexxedNativeBannerlord"
+                url="https://github.com/Charlemagne44/RenownTweaks"
               ></Post>
             </Col>
           </Row>
