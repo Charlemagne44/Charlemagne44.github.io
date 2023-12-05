@@ -12,10 +12,10 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "left" }}>
             Hi Everyone, I am <span className="purple">Collin Hay </span>
-            from <span className="purple"> Boston, Massachusetts.</span>
-            <br /> I am a full time backend software engineer for HPC and edge
+            from <span className="purple"> Boston, Massachusetts.  </span>
+            I am a full time backend software engineer for HPC and edge
             servers. I have a bachelors degree in Computer Science from the
             University of Delaware.
             <br />
