@@ -11,9 +11,9 @@ export default function Post(props) {
     try {
       if (navigator.share) {
         await navigator.share({
-          title: "Your sharing title",
-          text: "Your sharing text",
-          url: "https://example.com", // Replace with your actual URL
+          title: props.title,
+          text: props.desc,
+          url: props.url, // Replace with your actual URL
         });
       } else {
         throw new Error("Web Share API is not supported in this browser.");
